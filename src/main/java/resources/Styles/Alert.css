@@ -1,0 +1,30 @@
+.alert_container{
+    -fx-background-color: linear-gradient(to right, #1c1b1c, #1f2330);
+    -fx-text-fill: #ccc;
+    -fx-font-family: "Cascadia Code";
+    -fx-font-size: 1.4em;
+}
+.icon_box{
+    -fx-alignment: center;
+}
+
+.icon {
+    -fx-fill: #FFF;
+}
+
+
+.section{
+    -fx-font-family: "Cascadia Code";
+    -fx-text-fill: #52bed7;
+
+    /*-fx-text-fill: #ccc;*/
+    -fx-alignment: center;
+    -fx-font-size: 1.4em;
+}
+
+.description{
+    -fx-font-family: "Cascadia Code";
+    -fx-alignment: center;
+    -fx-text-fill: #aaaaaa;
+    -fx-font-size: 0.6em;
+}
