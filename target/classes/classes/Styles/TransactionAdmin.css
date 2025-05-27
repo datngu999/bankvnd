@@ -1,0 +1,53 @@
+.deposit_container{
+    -fx-background-color: linear-gradient(to right, #a6e4ef, #0a5969);
+}
+
+
+
+.date_time{
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 1.2em;
+    -fx-font-family: "Cascadia Code";
+}
+
+.center_container{
+    -fx-background-color: linear-gradient(to right, #a6e4ef, #0a5969);
+    -fx-background-radius: 15;
+
+}
+.center_container Button{
+    -fx-border-color: #47b2b2;
+    -fx-text-fill: #063636;
+    -fx-font-family: "Cascadia Code";
+    -fx-effect: dropshadow(three-pass-box, #18413c, 3, 0, 0, 3);
+}
+.center_container Button:hover {
+    -fx-cursor: hand;
+}
+
+.center_container .list-view {
+    -fx-background-color: linear-gradient(to right, #156565, #5df5ec);
+    -fx-background-radius: 10;
+    -fx-border-color: #656565;
+    -fx-border-radius: 10;
+    -fx-border-width: 2;
+}
+
+.center_container .list-cell{
+    -fx-background-color: linear-gradient(to right, #156565, #5df5ec);
+    -fx-background-radius: 10;
+    -fx-pref-width: 800;
+    -fx-font-family: "Cascadia Code";
+    -fx-text-fill: #52bed7;
+}
+.section_title{
+    -fx-fill: #FFFFFF;
+    -fx-font-family: "Cascadia Code";
+    -fx-font-size: 1.5em;
+}
+
+.amount_title{
+    -fx-fill: #FFFFFF;
+    -fx-font-family: "Cascadia Code";
+    -fx-font-size: 1.2em;
+}
